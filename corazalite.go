@@ -288,7 +288,7 @@ func convertFasthttpToStdRequest(c *fiber.Ctx) (*http.Request, error) {
 func createWAFWithCfg(cfg CorazaCfg) (coraza.WAF, error) {
 
 	for idx := range cfg.DirectivesFile {
-		if _, err := os.Stat(cfg.DirectivesFile[idx]); err != nil {
+		if _, err := os.Stat(cfg.DirectivesFile[idx]); err != nil && !strings.Contains(cfg.DirectivesFile[idx], "*") {
 			panic("WAF directives file not found")
 		}
 	}

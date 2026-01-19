@@ -46,7 +46,11 @@ func main() {
     corazalite.InitGlobalWAFWithCfg(corazalite.CorazaCfg{
         // Path to Coraza directives file
         // Coraza 规则配置文件路径
-        DirectivesFile: []string{"./conf/coraza.conf"},
+		DirectivesFile: []string{
+			"./conf/coraza.conf",
+            "./conf/coreruleset-4.22.0-minimal/crs-setup.conf.example",
+            "./conf/coreruleset-4.22.0-minimal/rules/*.conf",
+        },
         
         // Enable request body inspection
         // 启用请求体检测
