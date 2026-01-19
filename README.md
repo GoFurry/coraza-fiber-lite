@@ -206,6 +206,11 @@ Request blocked by CorazaLite WAF
 
 ---
 
+## 📑Documentation References
+- [Coraza Docs](https://coraza.io)
+- [OWASP Core Ruleset](https://coraza.io/docs/tutorials/coreruleset)
+- [Download OWASP Core Ruleset](https://github.com/coreruleset/coreruleset)
+  
 ## 🐺License | 许可证
 
 This project is open-sourced under the [Apache License 2.0](LICENSE)
