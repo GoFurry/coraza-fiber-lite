@@ -1,6 +1,6 @@
 # coraza-fiber-lite
 
-[![Last Version](https://img.shields.io/github/releases/GoFurry/coraza-fiber-lite/all.svg?logo=github&color=brightgreen)](https://github.com/GoFurry/coraza-fiber-lite/releases)
+[![Last Version](https://img.shields.io/github/release/GoFurry/coraza-fiber-lite/all.svg?logo=github&color=brightgreen)](https://github.com/GoFurry/coraza-fiber-lite/releases)
 [![License](https://img.shields.io/github/license/GoFurry/coraza-fiber-lite)](LICENSE)
 [![Go Version](https://img.shields.io/badge/go-%3E%3D1.24-blue)](go.mod)
 
